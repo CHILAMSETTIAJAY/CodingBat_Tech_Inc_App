@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@media print {
+    * {
+     visibility: hidden;
+   }
+ }
+ ::-webkit-scrollbar {
+   display: none;
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family--1: 'EB Garamond', serif;
+    --font-family--2: 'Playfair Display', serif;
+    --font-family--3: 'Crimson Text', serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: "Montserrat" !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+}
+.hero-section {
+    text-align: center;
+    margin-top: 0px;
+    padding: 40px;
+}
+.flex{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#hero-section-title {
+    font-size: 42px;
+    line-height:50px;
+}
+.hero-section h1{
+    top: 30px;
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: -1.5px;
+    margin: 20px 0px 20px 0px;
+    text-shadow: 0 4px 8px rgb(0 0 0 / 13%), 0 2px 4px rgb(0 0 0 / 9%);
+}
+.singup-btn{
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: 500;
+    background-color: #0f2036;
+    border: 1px solid #0f2036;
+    transition: 0.3s;
+    color: white !important;
+    text-decoration: none;
+    margin: 20px 0px 20px 0px;
+}
+.guest{
+    text-decoration: none;
+    color: var(--primary) !important;
+}
+.hero-pic{
+    margin: 25px 0px 0px 0px;
+    width: 110%;
+    mix-blend-mode:multiply;
+}
+.course-availability p {
+    padding: 0px 26px;
+    font-size: 16px;
+}
+#section1 P,h1 {
+    font-family: var(--font-family--3);
+  }
+  #section1 P{
+    font-size: 16px;
+  }
+  #section1 .guest-msg {
+    font-size: 13px;
+  }
+  #section1 .singup-btn {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
