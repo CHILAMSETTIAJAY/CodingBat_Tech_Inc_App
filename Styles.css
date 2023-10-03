@@ -8,6 +8,7 @@
  ::-webkit-scrollbar {
    display: none;
  }
+
 *{
     margin: 0;
     padding: 0;
@@ -27,6 +28,10 @@ body{
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
+    background-image: url(./images/bg.jpg);
+    background-position:center;
+    background-size: 100%;
+    backdrop-filter: blur(1px);
 }
 a{
     text-decoration: none;
@@ -75,10 +80,9 @@ a{
     color: rgba(0, 0, 255, 0.644) !important;
 }
 .hero-pic{
-    margin: 10px 0px 0px 0px;
+    /* margin: 10px 0px 0px 0px; */
     padding: 5px 0px;
-    width: 100%;
-    mix-blend-mode:multiply;
+    width: 120%;
 }
 .course-availability p {
     padding: 0px 26px;
@@ -125,7 +129,8 @@ a{
     transition: 1s;
 }
 .logfrom{
-    padding: 30px;
+    padding: 25px;
+    width: 90%;
     background-color: white;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
     border-radius: 2px;
@@ -146,7 +151,7 @@ a{
 }
 .guest-msg{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 #close , #close1{
     position: absolute;
@@ -156,4 +161,12 @@ a{
 }
 .logo-pic{
     mix-blend-mode: color-burn;
+}
+.logo-from{
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
+.logo-from-pic{
+    width: 80%;
 }
